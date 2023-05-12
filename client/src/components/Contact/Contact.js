@@ -28,6 +28,7 @@ const Contact = () => {
           setTimeout(() => {
             setDone(false);
           }, 1500);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -74,6 +75,7 @@ const Contact = () => {
             placeholder="Message here"
           ></textarea>
           <input type="submit" value="Send" className="button" />
+
           <span className="done">{done && "Thanks for contacting me!"}</span>
         </form>
       </div>

@@ -100,9 +100,7 @@ const Portfolio = () => {
               <h3>Cloud-Book</h3>
               <p>
                 A fully functional MERN STACK website, where we create our
-                personal notes on the cloud, implimented features like Login &
-                Signup page for storing user credentials, So that perticular
-                user can access only his own notes.
+                personal notes on the cloud.
               </p>
               <a
                 href="https://github.com/MrStark1234/mern-project"

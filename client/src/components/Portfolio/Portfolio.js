@@ -7,6 +7,8 @@ import Port from "../../img/port.png";
 import News from "../../img/news.png";
 import Quiz from "../../img/quiz.png";
 import Cloud from "../../img/cloud.png";
+import Social from "../../img/social.png";
+import CSK from "../../img/csa.png";
 
 import { themeContext } from "../../context";
 import { useContext } from "react";
@@ -30,6 +32,48 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         {/* <div className="port"> */}
+        <SwiperSlide>
+          <div className="work">
+            <img src={Social} alt="/" />
+            <div className="layer">
+              <h3>Friend's-Zone</h3>
+              <p>
+                Made a website that helps to connect with your family and
+                friends with their photos and posts.
+              </p>
+              <a href="/" target="_blank" rel="noreferrer">
+                <LaunchIcon
+                  className="icon"
+                  fontSize="small"
+                  style={{ marginTop: "2px" }}
+                />
+              </a>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="work">
+            <img src={CSK} alt="/" />
+            <div className="layer">
+              <h3>ChatSkoot-App</h3>
+              <p>
+                It's a MERN Stack project where you can do real time chating
+                with you friends.
+              </p>
+              <a
+                href="https://chatskoot.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <LaunchIcon
+                  className="icon"
+                  fontSize="small"
+                  style={{ marginTop: "2px" }}
+                />
+              </a>
+            </div>
+          </div>
+        </SwiperSlide>
         <SwiperSlide>
           <div className="work">
             <img src={Port} alt="/" />
@@ -143,6 +187,7 @@ const Portfolio = () => {
             </div>
           </div>
         </SwiperSlide>
+
         {/* </div> */}
       </Swiper>
     </div>

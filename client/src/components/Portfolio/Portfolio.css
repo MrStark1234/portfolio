@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
   margin-bottom: 9rem;
 }
 
@@ -144,38 +144,11 @@
     margin-bottom: 3px;
   }
 }
-
-/* For screens larger than 768px */
-/* @media (min-width: 768px) {
-  .work {
-    display: flex;
-  }
-  .work img {
-    width: 50%;
-    float: left;
-  }
-  .layer {
-    width: 50%;
-    height: 100%;
-    padding: 20px;
-    border-radius: 0;
-    position: static;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-    transition: none;
-  }
-  .layer p {
-    margin-right: 0;
-  }
-  .layer a {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 30px;
-    width: auto;
-    height: auto;
-    border-radius: 0;
-  }
-} */
+.swlft {
+  margin-top: auto;
+  color: var(--red);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

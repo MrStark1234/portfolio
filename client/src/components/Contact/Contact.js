@@ -27,7 +27,7 @@ const Contact = () => {
           setDone(true);
           setTimeout(() => {
             setDone(false);
-          }, 1500);
+          }, 2500);
           form.current.reset();
         },
         (error) => {

@@ -188,6 +188,8 @@ const Portfolio = () => {
 
         {/* </div> */}
       </Swiper>
+      <br />
+      <span className="swlft">Swipe Right For more Projects ----{">"} </span>
     </div>
   );
 };

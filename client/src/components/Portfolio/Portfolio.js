@@ -9,6 +9,7 @@ import Quiz from "../../img/quiz.png";
 import Cloud from "../../img/cloud.png";
 import Social from "../../img/social.png";
 import CSK from "../../img/csa.png";
+import RC from "../../img/rc.png";
 
 import { themeContext } from "../../context";
 import { useContext } from "react";
@@ -84,6 +85,30 @@ const Portfolio = () => {
                 frontend.
               </p>
               <a href="/" target="_blank" rel="noreferrer">
+                <LaunchIcon
+                  className="icon"
+                  fontSize="small"
+                  style={{ marginTop: "2px" }}
+                />
+              </a>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="work">
+            <img src={RC} alt="/" />
+            <div className="layer">
+              <h3>Resume-Craftr</h3>
+              <p>
+                Resume-Craftr is a powerful and user-friendly website.It aims to
+                simplify the process of creating professional resumes in just
+                two steps.
+              </p>
+              <a
+                href="https://resume-ss.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <LaunchIcon
                   className="icon"
                   fontSize="small"

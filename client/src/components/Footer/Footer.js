@@ -11,7 +11,7 @@ const Footer = () => {
       <img src={Wave} alt="/" style={{ width: "100%" }} />
       <div className="f-content">
         <span style={{ fontSize: "16px", marginBottom: "-0.2rem" }}>
-          Copyright © Suraj Singhal | All rights reserved
+          Copyright © 2023 | Suraj Singhal | All rights reserved
         </span>
         <div className="f-icon">
           <Insta color="#b1b1b1" size="1.5rem" />

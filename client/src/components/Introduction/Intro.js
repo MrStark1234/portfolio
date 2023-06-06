@@ -25,7 +25,7 @@ function Intro() {
           </span>
         </div>
         <Link spy={true} to="Contact" smooth={true}>
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">Recruit-me</button>
         </Link>
         <div className="i-icon">
           <a
@@ -43,7 +43,7 @@ function Intro() {
             <img src={linked} alt="LinkedIn" />
           </a>
           <a
-            href="https://www.instagram.com/surajsinghal_01/"
+            href="https://www.instagram.com/surajsinghal_02/"
             target="_blank"
             rel="noreferrer"
           >

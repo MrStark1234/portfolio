@@ -9,21 +9,6 @@ import { themeContext } from "../../context";
 import { useContext } from "react";
 
 function Service() {
-  // const onButtonClick = () => {
-  //   // using Java Script method to get PDF file
-  //   fetch("resume.pdf").then((response) => {
-  //     response.blob().then((blob) => {
-  //       // Creating new object of PDF file
-  //       const fileURL = window.URL.createObjectURL(blob);
-  //       // Setting various property values
-  //       let alink = document.createElement("a");
-  //       alink.href = fileURL;
-  //       alink.download = "resume.pdf";
-  //       alink.click();
-  //     });
-  //   });
-  // };
-
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -34,12 +19,15 @@ function Service() {
         <span>Services</span>
         <span>
           I always try to serve better experiences to the client.
-          <br /> Fast load times and lag free interaction, my highest priority.
+          <br /> Fast load times and lag-free interaction, are my highest
+          priority.
           <br />I always make sure that my layouts will work on any device, big
-          or small. <br />
+          or small.
+          <br />
           Sometimes websites don't have to be static, I love making pages come
-          to life. <br />
-          Strong preference for easy to use, intuitive UX/UI.
+          to life.
+          <br />
+          Strong preference for easy-to-use, intuitive UX/UI.
         </span>
         <a
           href="https://drive.google.com/file/d/17HyeedR70F7aBdOKioUngxB-EfWM63d6/preview"

@@ -30,14 +30,16 @@ function Service() {
           Strong preference for easy-to-use, intuitive UX/UI.
         </span>
         <a
-          href="https://drive.google.com/file/d/1khXKvVHme1gTxCPogHF8t7_aavsCMBdr/preview"
+          href="https://drive.google.com/file/d/1pdRSwbGtA4_W35pRNlZ4fUggjNOw5At0/preview"
           width="640"
           height="480"
           allow="autoplay"
           rel="noreferrer"
           target="_blank"
         >
-          <button className="button s-button">Go to Resume</button>
+          <button className="button s-button" style={{ padding: "0px" }}>
+            Go to Resume
+          </button>
         </a>
       </div>
 

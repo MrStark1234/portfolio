@@ -16,7 +16,7 @@ function Intro() {
     <div className="intro">
       <div className="i-lft">
         <div className="i-name">
-          <span style={{ color: darkMode ? "white" : "" }}>Hi ! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hi, I Am</span>
           <span>Suraj Singhal</span>
           <span>
             Full Stack Web Developer <big>"MERN Stack"</big> with a high level
@@ -25,7 +25,9 @@ function Intro() {
           </span>
         </div>
         <Link spy={true} to="Contact" smooth={true}>
-          <button className="button i-button">Recruit-me</button>
+          <button className="button i-button" style={{ padding: "0px" }}>
+            Recruit-me
+          </button>
         </Link>
         <div className="i-icon">
           <a
@@ -47,7 +49,7 @@ function Intro() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={Insta} alt="Instagram" />
+            <img src={Insta} alt="Instagram"  />
           </a>
         </div>
       </div>
